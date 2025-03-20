@@ -7,14 +7,19 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <title>Hello from Electron renderer!</title>
-
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
+
 <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <div id="info"></div>
+
+    <button id="install">安装APK到设备</button>
+    <div id="device"></div>
+    <div id="drop_zone">
+        拖动APK到此
+    </div>
+    <div id="log"></div>
 </body>
-<script src="./render.js"></script>
+<script type="module" src="./render.js"></script>
 
 </html>

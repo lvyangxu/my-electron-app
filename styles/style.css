@@ -1,0 +1,7 @@
+#drop_zone {
+    border: 1px solid #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
